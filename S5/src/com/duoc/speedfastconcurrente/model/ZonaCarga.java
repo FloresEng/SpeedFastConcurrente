@@ -28,7 +28,7 @@ public class ZonaCarga {
      * Agrega un pedido a la cola de forma sincronizada.
      * @param p Pedido a añadir.
      */
-    public synchronized void agregarPedido(Pedido p){
+    public synchronized void agregarPedido(PedidoS6 p){
 
         if (p == null){
             System.out.println("[ERROR] No se puede agregar un pedido nulo/vacío.");
